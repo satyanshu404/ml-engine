@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_engine"
+version = "0.1.0"
+description = "A collection of utility functions that contain everything related to model lifecycle — training, evaluation, inference, saving, and loading"
+authors = [{ name = "Satyanshu Kumar", email = "satyanshu.iitkgp@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Satyanshu Kumar" }

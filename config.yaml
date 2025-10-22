@@ -1,0 +1,18 @@
+global_config:
+  project_name: null
+  seed: 42
+  deterministic: true
+
+trainer_config:
+  epochs: 20
+  run_name: null
+  learning_rate: 0.001
+  batch_size: 32
+  patience: 3
+  save_best_model_on: "loss"  # options: loss / metric / null
+  epsilon: 0.01   # percentage change
+  device: null  # options: cuda / cpu / mps / null
+  model_save_dir: "./Checkpoints"
+  model_save_name: null  # e.g., "best_model.pth"
+  is_wandb: true
+  use_autocast: true
